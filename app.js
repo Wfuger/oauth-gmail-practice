@@ -16,8 +16,8 @@ const users = require('./routes/users');
 
 const app = express();
 
-const googleClientID = "930331729653-cf41id5ohngfci9ruvg66l4ethu911vu.apps.googleusercontent.com";
-const googleClientSecret = "4ZfjGBHDymBgQL76kdtqdKhV";
+const googleClientID = "193398344271-hen1btsc4qaftbco9u8u21230qbcoh2h.apps.googleusercontent.com";
+const googleClientSecret = "2g4fc6NXp936lZBrYrWXi0Y8";
 
 passport.serializeUser(function(user, done) {
   done(null, user);
